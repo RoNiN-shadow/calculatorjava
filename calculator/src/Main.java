@@ -5,9 +5,9 @@ public class Main {
     public static int first;
     public static int second;
     public static int action = 0;
-    public static boolean valid = false;
 
     public static void main(String[] args) {
+        boolean valid = false;
         do{
             System.out.print("Choose action(1 is +, 2 is -, 3 is /, 4 is *): ");
         if (scanner.hasNextInt()){
